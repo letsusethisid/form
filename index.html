@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"></link>
     <title>Form</title>
   </head>
@@ -11,7 +11,7 @@
     <header class="form-container">
       <section class="form">
         <h3 class="form__heading">Register With Us</h3>
-        <form>
+        <form onsubmit="onSubmit(event)" name="form">
           <div class="form__input">
             <label for="name">Username</label>
             <input type="text" id="name" />

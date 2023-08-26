@@ -25,17 +25,17 @@
 }
 
 .form__input {
-  padding: 16px 0;
+  padding: 12px 0;
 }
 
 .form__input label {
   display: block;
-  padding: 2px 0;
+  padding: 4px 0;
 }
 
 .form__input input {
   width: 100%;
-  padding: 2px 0;
+  padding: 4px;
   height: 36px;
 }
 
@@ -52,4 +52,24 @@
   border-radius: 2px;
   border: 1px solid rgb(54, 54, 238);
   margin: 16px 0;
+}
+
+.success {
+  border-color: rgb(2, 196, 2);
+}
+
+.error {
+  border-color: rgb(207, 6, 6);
+}
+
+.error-text {
+  color: rgb(207, 6, 6);
+}
+
+.display {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }
