@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>Form</title>
+  </head>
+  <body>
+    <header class="form-container">
+      <section class="form">
+        <h3 class="form__heading">Register With Us</h3>
+        <form onsubmit="onSubmit(event)" name="form">
+          <div class="form__input">
+            <label for="name">Username</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="form__input">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+
+          <div class="form__input">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+
+          <div class="form__input">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password"/>
+          </div>
+
+          <div class="form__button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </header>
+  </body>
+</html>
